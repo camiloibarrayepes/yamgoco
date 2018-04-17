@@ -17,4 +17,6 @@ Auth::routes();
 
 Route::get('/blog', 'Web\PageController@blog')->name('blog');
 
-Route::get('blog/{slug}', 'web\PageController@post')->name('post');
+Route::get('entrada/{slug}', 'web\PageController@post')->name('post');
+Route::get('category/{slug}', 'web\PageController@category')->name('category');
+Route::get('etiqueta/{slug}', 'web\PageController@tag')->name('tag');
