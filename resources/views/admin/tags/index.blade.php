@@ -35,7 +35,7 @@
                                 <td width="10px">
                                     <a href="{{ route('tags.edit', $tag->id) }}" 
                                         class="btn btn-sm btn-defautl">
-                                        ver
+                                        Editar
                                     </a>
                                 </td>
                                 <td width="10px">
