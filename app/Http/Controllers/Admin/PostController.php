@@ -4,14 +4,14 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests\CategoryStoreRequest;
-use App\Http\Requests\CategoryUpdateRequest;
+use App\Http\Requests\PostStoreRequest;
+use App\Http\Requests\PostUpdateRequest;
 
 use App\Http\Controllers\Controller;
 
-use App\Category;
+use App\Post;
 
-class CategoryController extends Controller
+class PostController extends Controller
 {
 
     public function __construct()
@@ -25,8 +25,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories = Category::orderBy('id', 'DESC')->paginate();
-        return view('admin.categories.index', compact('categories'));
+        $posts = Post::orderBy('id', 'DESC')->paginate();
+        return view('admin.posts.index', compact('posts'));
     }
 
     /**
@@ -36,7 +36,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('admin.categories.create');
+        return view('admin.posts.create');
     }
 
     /**
@@ -45,13 +45,13 @@ class CategoryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(categoriestoreRequest $request)
+    public function store(poststoreRequest $request)
     {
         
 
-        $category = Category::create($request->all());
-        return redirect()->route('categories.edit', $category->id)
-            ->with('info', 'Categoria creada con exito');
+        $post = Post::create($request->all());
+        return redirect()->route('posts.edit', $post->id)
+            ->with('info', 'Entrada creada con exito');
     }
 
     /**
@@ -62,8 +62,8 @@ class CategoryController extends Controller
      */
     public function show($id)
     {
-        $category = Category::find($id);
-        return view('admin.categories.show', compact('category'));
+        $post = Post::find($id);
+        return view('admin.posts.show', compact('post'));
     }
 
     /**
@@ -74,8 +74,8 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        $category = Category::find($id);
-        return view('admin.categories.edit', compact('category'));
+        $post = Post::find($id);
+        return view('admin.posts.edit', compact('post'));
     }
 
     /**
@@ -85,14 +85,14 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(CategoryUpdateRequest $request, $id)
+    public function update(PostUpdateRequest $request, $id)
     {
-        $category  = Category::find($id);
+        $post  = Post::find($id);
         
-        $category->fill($request->all())->save();
+        $post->fill($request->all())->save();
 
-        return redirect()->route('categories.edit', $category->id)
-            ->with('info', 'Categoria actualizada con exito');
+        return redirect()->route('posts.edit', $post->id)
+            ->with('info', 'Entrada actualizada con exito');
 
     }
 
@@ -104,7 +104,7 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        $category = Category::find($id)->delete();
+        $post = Post::find($id)->delete();
 
         return back()->with('info', 'Eliminado correctamente');
     }
