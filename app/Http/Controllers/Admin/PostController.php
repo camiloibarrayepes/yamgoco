@@ -138,7 +138,7 @@ class PostController extends Controller
     {
         $post = Post::find($id);
         $this->authorize('pass', $post);
-        $post->delete();
+        $post->delete();    
         return back()->with('info', 'Eliminado correctamente');
     }
 }
