@@ -9,12 +9,12 @@
 
 <div class="form-group">
     {{ Form::label('name', 'Nombre de la categoria') }}
-    {{ Form::text('slug-input', null, ['class' => 'form-control', 'id' => 'slug-input']) }}
+    {{ Form::text('name', null, ['class' => 'form-control', 'id' => 'name']) }}
 </div>
 
 <div class="form-group">
         {{ Form::label('slug', 'URL amigable') }}
-        {{ Form::text('slug-output', null, ['class' => 'form-control', 'id' => 'slug-output']) }}
+        {{ Form::text('slug', null, ['class' => 'form-control', 'id' => 'slug']) }}
 </div>
 
 <div class="form-group">
@@ -49,8 +49,8 @@
 </div>
 
 <div class="form-group">
-        {{ Form::label('contenido', 'Descripción') }}
-        {{ Form::textarea('contenido', null, ['class' => 'form-control']) }}
+        {{ Form::label('body', 'Descripción') }}
+        {{ Form::textarea('body', null, ['class' => 'form-control']) }}
 </div>
 
 <div class="form-group">
@@ -78,15 +78,15 @@
     return $slug.toLowerCase();
     }
 
-    $('#slug-input').keyup(function() {
-    var takedata = $('#slug-input').val()
-    $('#slug-output').val(slug(takedata));
+    $('#name').keyup(function() {
+    var takedata = $('#name').val()
+    $('#slug').val(slug(takedata));
     
     });
 
         CKEDITOR.config.height = 400;
         CKEDITOR.config.width  = 'auto';
-        CKEDITOR.replace('contenido');
+        CKEDITOR.replace('body');
         
     </script>
 
