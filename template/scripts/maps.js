@@ -1,7 +1,7 @@
 var infoBox_ratingType='star-rating';(function($){"use strict";function mainMap(){var ib=new InfoBox();function locationData(locationURL,locationImg,locationTitle,locationAddress,locationRating,locationRatingCounter){return(''+
-'<a href="http://www.vasterad.com/themes/listeo_updated/scripts/'+locationURL+'" class="listing-img-container">'+
+'<a href="'+locationURL+'" class="listing-img-container">'+
 '<div class="infoBox-close"><i class="fa fa-times"></i></div>'+
-'<img src="http://www.vasterad.com/themes/listeo_updated/scripts/'+locationImg+'" alt="">'+
+'<img src="'+locationImg+'" alt="">'+
 '<div class="listing-item-content">'+
 '<h3>'+locationTitle+'</h3>'+
 '<span>'+locationAddress+'</span>'+

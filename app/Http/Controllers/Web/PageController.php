@@ -15,6 +15,12 @@ class PageController extends Controller
         return view('web.posts', compact('posts'));
     }
 
+    //limit 6 preview post
+    public function viewPage(){
+        $posts = Post::orderBy('id', 'DESC')->where('status', 'PUBLISHED')->limit(6)->get();
+        return view('components.index', compact('posts'));
+    }
+
     public function category($slug){
         $category = Category::where('slug', $slug)->pluck('id')->first();
         $posts = Post::where('category_id', $category)

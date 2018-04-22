@@ -1,106 +1,11 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
-
-
 <!DOCTYPE html>
+
+<!-- Mirrored from www.vasterad.com/themes/listeo_updated/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Apr 2018 12:43:19 GMT -->
 <head>
 
 <!-- Basic Page Needs
 ================================================== -->
-<title>Listeo</title>
+<title>Yamgo Colombia</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -129,7 +34,7 @@
 				
 				<!-- Logo -->
 				<div id="logo">
-					<a href="index.html"><img src="images/logo.png" alt=""></a>
+					<a href="index-2.html"><img src="images/logo.png" alt=""></a>
 				</div>
 
 				<!-- Mobile Navigation -->
@@ -141,30 +46,29 @@
 					</button>
 				</div>
 
-
 				<!-- Main Navigation -->
 				<nav id="navigation" class="style-1">
 					<ul id="responsive">
 
-						<li><a class="current" href="index.html#">Home</a>
+						<li><a class="current" href="#">Home</a>
 							<ul>
-								<li><a href="index.html">Home 1</a></li>
-								<li><a href="index-2.html">Home 2</a></li>
-								<li><a href="index-3.html">Home 3</a></li>
-								<li><a href="index-4.html">Home 4</a></li>
+								<li><a href="index-2.html">Home 1</a></li>
+								<li><a href="index-3.html">Home 2</a></li>
+								<li><a href="index-4.html">Home 3</a></li>
+								<li><a href="index-5.html">Home 4</a></li>
 							</ul>
 						</li>
 
-						<li><a href="index.html#">Listings</a>
+						<li><a href="#">Listings</a>
 							<ul>
-								<li><a href="index.html#">List Layout</a>
+								<li><a href="#">List Layout</a>
 									<ul>
 										<li><a href="listings-list-with-sidebar.html">With Sidebar</a></li>
 										<li><a href="listings-list-full-width.html">Full Width</a></li>
 										<li><a href="listings-list-full-width-with-map.html">Full Width + Map</a></li>
 									</ul>
 								</li>
-								<li><a href="index.html#">Grid Layout</a>
+								<li><a href="#">Grid Layout</a>
 									<ul>
 										<li><a href="listings-grid-with-sidebar-1.html">With Sidebar 1</a></li>
 										<li><a href="listings-grid-with-sidebar-2.html">With Sidebar 2</a></li>
@@ -172,7 +76,7 @@
 										<li><a href="listings-grid-full-width-with-map.html">Full Width + Map</a></li>
 									</ul>
 								</li>
-								<li><a href="index.html#">Half Screen Map</a>
+								<li><a href="#">Half Screen Map</a>
 									<ul>
 										<li><a href="listings-half-screen-map-list.html">List Layout</a></li>
 										<li><a href="listings-half-screen-map-grid-1.html">Grid Layout 1</a></li>
@@ -183,7 +87,7 @@
 							</ul>
 						</li>
 
-						<li><a href="index.html#">User Panel</a>
+						<li><a href="#">User Panel</a>
 							<ul>
 								<li><a href="dashboard.html">Dashboard</a></li>
 								<li><a href="dashboard-messages.html">Messages</a></li>
@@ -197,7 +101,7 @@
 							</ul>
 						</li>
 
-						<li><a href="index.html#">Pages</a>
+						<li><a href="#">Pages</a>
 							<div class="mega-menu mobile-styles three-columns">
 
 									<div class="mega-menu-section">
@@ -243,12 +147,13 @@
 
 
 			<!-- Right Side Content / End -->
+			<!-- LOGIN Y REGISTRO 
 			<div class="right-side">
 				<div class="header-widget">
-					<a href="index.html#sign-in-dialog" class="sign-in popup-with-zoom-anim"><i class="sl sl-icon-login"></i> Sign In</a>
+					<a href="#sign-in-dialog" class="sign-in popup-with-zoom-anim"><i class="sl sl-icon-login"></i> Sign In</a>
 					<a href="dashboard-add-listing.html" class="button border with-icon">Add Listing <i class="sl sl-icon-plus"></i></a>
 				</div>
-			</div>
+			</div>-->
 			<!-- Right Side Content / End -->
 
 			<!-- Sign In Popup -->
@@ -262,8 +167,8 @@
 				<div class="sign-in-form style-1">
 
 					<ul class="tabs-nav">
-						<li class=""><a href="index.html#tab1">Log In</a></li>
-						<li><a href="index.html#tab2">Register</a></li>
+						<li class=""><a href="#tab1">Log In</a></li>
+						<li><a href="#tab2">Register</a></li>
 					</ul>
 
 					<div class="tabs-container alt">
@@ -285,7 +190,7 @@
 										<input class="input-text" type="password" name="password" id="password"/>
 									</label>
 									<span class="lost_password">
-										<a href="index.html#" >Lost Your Password?</a>
+										<a href="#" >Lost Your Password?</a>
 									</span>
 								</p>
 
@@ -352,151 +257,121 @@
 <!-- Header Container / End -->
 
 
-<!-- Banner
+
+<!-- Slider
 ================================================== -->
-<div class="main-search-container" data-background-image="images/main-search-background-01.jpg">
-	<div class="main-search-inner">
 
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2>Find Nearby Attractions</h2>
-					<h4>Expolorfdfe sstop-rated attractions, activities and more</h4>
+<!-- Revolution Slider -->
+<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classicslider1" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
 
-					<div class="main-search-input">
+<!-- 5.0.7 auto mode -->
+	<div id="rev_slider_4_1" class="rev_slider home fullwidthabanner" style="display:none;" data-version="5.0.7">
+		<ul>
 
-						<div class="main-search-input-item">
-							<input type="text" placeholder="What are you looking for?" value=""/>
-						</div>
+			<!-- Slide  -->
+			<li data-index="rs-1" data-transition="fade" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="800" data-fsslotamount="7" data-saveperformance="off">
 
-						<div class="main-search-input-item location">
-							<input type="text" placeholder="Location" value=""/>
-							<a href="index.html#"><i class="fa fa-dot-circle-o"></i></a>
-						</div>
+				<!-- Background -->
+				<img src="images/slider-bg-01.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0">
 
-						<div class="main-search-input-item">
-							<select data-placeholder="All Categories" class="chosen-select" >
-								<option>All Categories</option>	
-								<option>Shops</option>
-								<option>Hotels</option>
-								<option>Restaurants</option>
-								<option>Fitness</option>
-								<option>Events</option>
-							</select>
-						</div>
+				<!-- Caption-->
+				<div class="tp-caption custom-caption-2 tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0" 
+					id="slide-1-layer-2" 
+					data-x="['left','left','left','left']"
+					data-hoffset="['0','40','40','40']"
+					data-y="['middle','middle','middle','middle']" data-voffset="['0']" 
+					data-width="['640','640', 640','420','320']"
+					data-height="auto"
+					data-whitespace="nowrap"
+					data-transform_idle="o:1;"	
+					data-transform_in="y:0;opacity:0;s:1000;e:Power2.easeOutExpo;s:400;e:Power2.easeOutExpo" 
+					data-transform_out="" 
+					data-mask_in="x:0px;y:[20%];s:inherit;e:inherit;" 
+					data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+					data-start="1000" 
+					data-responsive_offset="on">
 
-						<button class="button" onclick="window.location.href='listings-half-screen-map-list.html'">Search</button>
+					<!-- Caption Content -->
+					<div class="R_title margin-bottom-15"
+					id="slide-2-layer-1"
+					data-x="['left','center','center','center']"
+					data-hoffset="['0','0','40','0']"
+					data-y="['middle','middle','middle','middle']"
+					data-voffset="['-40','-40','-20','-80']"
+					data-fontsize="['42','36', '32','36','22']"
+					data-lineheight="['70','60','60','45','35']"
+					data-width="['640','640', 640','420','320']"
+					data-height="none" data-whitespace="normal"
+					data-transform_idle="o:1;"
+					data-transform_in="y:-50px;sX:2;sY:2;opacity:0;s:1000;e:Power4.easeOut;"
+					data-transform_out="opacity:0;s:300;"
+					data-start="600"
+					data-splitin="none"
+					data-splitout="none"
+					data-basealign="slide"
+					data-responsive_offset="off"
+					data-responsive="off"
+					style="z-index: 6; color: #fff; letter-spacing: 0px; font-weight: 600; ">Discover City Gems</div>
 
-					</div>
+					<div class="caption-text">Interactively procrastinate high-payoff content without backward-compatible data. Quickly cultivate optimal processes and tactical architectures.</div>
+					<a href="#" class="button medium">Get Started</a>
 				</div>
-			</div>
-		</div>
 
+			</li>
+
+			<!-- Slide  -->
+			<li data-index="rs-2" data-transition="fade" data-slotamount="default"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="800" data-fsslotamount="7" data-saveperformance="off">
+
+				<!-- Background -->
+				<img src="images/slider-bg-02.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="112" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0"> 
+
+				<!-- Caption-->
+				<div class="tp-caption centered custom-caption-2 tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0" 
+					id="slide-2-layer-2" 
+					data-x="['center','center','center','center']" data-hoffset="['0']" 
+					data-y="['middle','middle','middle','middle']" data-voffset="['0']" 
+					data-width="['640','640', 640','420','320']"
+					data-height="auto"
+					data-whitespace="nowrap"
+					data-transform_idle="o:1;"	
+					data-transform_in="y:0;opacity:0;s:1000;e:Power2.easeOutExpo;s:400;e:Power2.easeOutExpo" 
+					data-transform_out="" 
+					data-mask_in="x:0px;y:[20%];s:inherit;e:inherit;" 
+					data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
+					data-start="1000" 
+					data-responsive_offset="on">
+
+					<!-- Caption Content -->
+					<div class="R_title margin-bottom-15"
+					id="slide-2-layer-3"
+					data-x="['center','center','center','center']"
+					data-hoffset="['0','0','0','0']"
+					data-y="['middle','middle','middle','middle']"
+					data-voffset="['-40','-40','-20','-80']"
+					data-fontsize="['42','36', '32','36','22']"
+					data-lineheight="['70','60','60','45','35']"
+					data-width="['640','640', 640','420','320']"
+					data-height="none" data-whitespace="normal"
+					data-transform_idle="o:1;"
+					data-transform_in="y:-50px;sX:2;sY:2;opacity:0;s:1000;e:Power4.easeOut;"
+					data-transform_out="opacity:0;s:300;"
+					data-start="600"
+					data-splitin="none"
+					data-splitout="none"
+					data-basealign="slide"
+					data-responsive_offset="off"
+					data-responsive="off"
+					style="z-index: 6; color: #fff; letter-spacing: 0px; font-weight: 600; ">Streamline Your Business</div>
+
+					<div class="caption-text">Proactively envisioned multimedia based on expertise cross-media growth strategies. Pontificate installed base portals after maintainable products.</div>
+					<a href="#" class="button medium">Read More</a>
+				</div>
+			</li>
+		</ul>
+		<div class="tp-static-layers"></div>
 	</div>
 </div>
-
-
-<!-- Content
-================================================== -->
-<div class="container">
-	<div class="row">
-
-		<div class="col-md-12">
-			<h3 class="headline centered margin-top-75">
-				Popular Categories
-				<span>Browse <i>the most desirable</i> categories</span>
-			</h3>
-		</div>
-
-	</div>
-</div>
-
-
-<!-- Categories Carousel -->
-<div class="fullwidth-carousel-container margin-top-25">
-	<div class="fullwidth-slick-carousel category-carousel">
-
-		<!-- Item -->
-		<div class="fw-carousel-item">
-
-			<!-- this (first) box will be hidden under 1680px resolution -->
-			<div class="category-box-container half">
-				<a href="listings-half-screen-map-grid-1.html" class="category-box" data-background-image="images/category-box-01.jpg">
-					<div class="category-box-content">
-						<h3>Hotels</h3>
-						<span>64 listings</span>
-					</div>
-					<span class="category-box-btn">Browse</span>
-				</a>
-			</div>
-
-			<div class="category-box-container half">
-				<a href="listings-half-screen-map-grid-1.html" class="category-box" data-background-image="images/category-box-02.jpg">
-					<div class="category-box-content">
-						<h3>Shops</h3>
-						<span>14 listings</span>
-					</div>
-					<span class="category-box-btn">Browse</span>
-				</a>
-			</div>
-		</div>
-
-		<!-- Item -->
-		<div class="fw-carousel-item">
-			<div class="category-box-container">
-				<a href="listings-half-screen-map-grid-1.html" class="category-box" data-background-image="images/category-box-03.jpg">
-					<div class="category-box-content">
-						<h3>Events</h3>
-						<span>67 listings</span>
-					</div>
-					<span class="category-box-btn">Browse</span>
-				</a>
-			</div>
-		</div>
-
-		<!-- Item -->
-		<div class="fw-carousel-item">
-			<div class="category-box-container">
-				<a href="listings-half-screen-map-grid-1.html" class="category-box" data-background-image="images/category-box-04.jpg">
-					<div class="category-box-content">
-						<h3>Fitness</h3>
-						<span>27 listings</span>
-					</div>
-					<span class="category-box-btn">Browse</span>
-				</a>
-			</div>
-		</div>
-
-		<!-- Item -->
-		<div class="fw-carousel-item">
-			<div class="category-box-container">
-				<a href="listings-half-screen-map-list.html" class="category-box" data-background-image="images/category-box-05.jpg">
-					<div class="category-box-content">
-						<h3>Nightlife</h3>
-						<span>22 listings</span>
-					</div>
-					<span class="category-box-btn">Browse</span>
-				</a>
-			</div>
-		</div>
-
-		<!-- Item -->
-		<div class="fw-carousel-item">
-			<div class="category-box-container">
-				<a href="listings-half-screen-map-list.html" class="category-box" data-background-image="images/category-box-06.jpg">
-					<div class="category-box-content">
-						<h3>Eat & Drink</h3>
-						<span>130 listings</span>
-					</div>
-					<span class="category-box-btn">Browse</span>
-				</a>
-			</div>
-		</div>
-
-	</div>
-</div>
-<!-- Categories Carousel / End -->
-
+<!-- Revolution Slider / End -->
 
 
 <!-- Fullwidth Section -->
@@ -507,146 +382,115 @@
 
 			<div class="col-md-12">
 				<h3 class="headline centered margin-bottom-45">
-					Most Visited Places
-					<span>Discover top-rated local businesses</span>
+					Ultimas travesias
+					<span>Descrubre los ultimos destinos agregados</span>
 				</h3>
 			</div>
 
 			<div class="col-md-12">
 				<div class="simple-slick-carousel dots-nav">
 
-				<!-- Listing Item -->
-				<div class="carousel-item">
-					<a href="listings-single-page.html" class="listing-item-container">
-						<div class="listing-item">
-							<img src="images/listing-item-01.jpg" alt="">
+					<!-- Listing Item -->
+					<div class="carousel-item">
+						<a href="listings-single-page.html" class="listing-item-container compact">
+							<div class="listing-item">
+								<img src="images/listing-item-01.jpg" alt="">
+								<div class="listing-item-details">
+										<ul>
+											<li>Starting from $59 per night</li>
+										</ul>
+									</div>
+								<div class="listing-badge now-open">Descuento</div>
 
-							<div class="listing-badge now-open">Now Open</div>
-							
-							<div class="listing-item-content">
-								<span class="tag">Eat & Drink</span>
-								<h3>Tom's Restaurant <i class="verified-icon"></i></h3>
-								<span>964 School Street, New York</span>
+								<div class="listing-item-content">
+									<div class="numerical-rating" data-rating="3.5"></div>
+									<h3>Tom's Restaurant <i class="verified-icon"></i></h3>
+									<span>964 School Street, New York</span>
+								</div>
+								<span class="like-icon"></span>
 							</div>
-							<span class="like-icon"></span>
-						</div>
-						<div class="star-rating" data-rating="3.5">
-							<div class="rating-counter">(12 reviews)</div>
-						</div>
-					</a>
-				</div>
-				<!-- Listing Item / End -->
+						</a>
+					</div>
+					<!-- Listing Item / End -->
 
-				<!-- Listing Item -->
-				<div class="carousel-item">
-					<a href="listings-single-page.html" class="listing-item-container">
-						<div class="listing-item">
-							<img src="images/listing-item-02.jpg" alt="">
-							<div class="listing-item-details">
-								<ul>
-									<li>Friday, August 10</li>
-								</ul>
+					<!-- Listing Item -->
+					<div class="carousel-item">
+						<a href="listings-single-page.html" class="listing-item-container compact">
+							<div class="listing-item">
+								<img src="images/listing-item-02.jpg" alt="">
+								<div class="listing-item-details">
+									<ul>
+										<li>Friday, August 10</li>
+									</ul>
+								</div>
+								<div class="listing-item-content">
+									<div class="numerical-rating" data-rating="5.0"></div>
+									<h3>Sticky Band</h3>
+									<span>Bishop Avenue, New York</span>
+								</div>
+								<span class="like-icon"></span>
 							</div>
-							<div class="listing-item-content">
-								<span class="tag">Events</span>
-								<h3>Sticky Band</h3>
-								<span>Bishop Avenue, New York</span>
+						</a>
+					</div>
+					<!-- Listing Item / End -->		
+
+					<!-- Listing Item -->
+					<div class="carousel-item">
+						<a href="listings-single-page.html" class="listing-item-container compact">
+							<div class="listing-item">
+								<img src="images/listing-item-03.jpg" alt="">
+								<div class="listing-item-details">
+									<ul>
+										<li>Starting from $59 per night</li>
+									</ul>
+								</div>
+								<div class="listing-item-content">
+									<div class="numerical-rating" data-rating="2.0"></div>
+									<h3>Hotel Govendor</h3>
+									<span>778 Country Street, New York</span>
+								</div>
+								<span class="like-icon"></span>
 							</div>
-							<span class="like-icon"></span>
-						</div>
-						<div class="star-rating" data-rating="5.0">
-							<div class="rating-counter">(23 reviews)</div>
-						</div>
-					</a>
-				</div>
-				<!-- Listing Item / End -->		
 
-				<!-- Listing Item -->
-				<div class="carousel-item">
-					<a href="listings-single-page.html" class="listing-item-container">
-						<div class="listing-item">
-							<img src="images/listing-item-03.jpg" alt="">
-							<div class="listing-item-details">
-								<ul>
-									<li>Starting from $59 per night</li>
-								</ul>
+						</a>
+					</div>
+					<!-- Listing Item / End -->
+
+					<!-- Listing Item -->
+					<div class="carousel-item">
+						<a href="listings-single-page.html" class="listing-item-container compact">
+							<div class="listing-item">
+								<img src="images/listing-item-04.jpg" alt="">
+
+								<div class="listing-badge now-open">Now Open</div>
+
+								<div class="listing-item-content">
+									<div class="numerical-rating" data-rating="5.0"></div>
+									<h3>Burger House <i class="verified-icon"></i></h3>
+									<span>2726 Shinn Street, New York</span>
+								</div>
+								<span class="like-icon"></span>
 							</div>
-							<div class="listing-item-content">
-								<span class="tag">Hotels</span>
-								<h3>Hotel Govendor</h3>
-								<span>778 Country Street, New York</span>
+						</a>
+					</div>
+					<!-- Listing Item / End -->
+
+					<!-- Listing Item -->
+					<div class="carousel-item">
+						<a href="listings-single-page.html" class="listing-item-container compact">
+							<div class="listing-item">
+								<img src="images/listing-item-05.jpg" alt="">
+								<div class="listing-item-content">
+									<div class="numerical-rating" data-rating="3.5"></div>
+									<h3>Airport</h3>
+									<span>1512 Duncan Avenue, New York</span>
+								</div>
+								<span class="like-icon"></span>
 							</div>
-							<span class="like-icon"></span>
-						</div>
-						<div class="star-rating" data-rating="2.0">
-							<div class="rating-counter">(17 reviews)</div>
-						</div>
-					</a>
-				</div>
-				<!-- Listing Item / End -->
+						</a>
+					</div>
+					<!-- Listing Item / End -->
 
-				<!-- Listing Item -->
-				<div class="carousel-item">
-					<a href="listings-single-page.html" class="listing-item-container">
-						<div class="listing-item">
-							<img src="images/listing-item-04.jpg" alt="">
-
-							<div class="listing-badge now-open">Now Open</div>
-
-							<div class="listing-item-content">
-								<span class="tag">Eat & Drink</span>
-								<h3>Burger House <i class="verified-icon"></i></h3>
-								<span>2726 Shinn Street, New York</span>
-							</div>
-							<span class="like-icon"></span>
-						</div>
-						<div class="star-rating" data-rating="5.0">
-							<div class="rating-counter">(31 reviews)</div>
-						</div>
-					</a>
-				</div>
-				<!-- Listing Item / End -->
-
-				<!-- Listing Item -->
-				<div class="carousel-item">
-					<a href="listings-single-page.html" class="listing-item-container">
-						<div class="listing-item">
-							<img src="images/listing-item-05.jpg" alt="">
-							<div class="listing-item-content">
-								<span class="tag">Other</span>
-								<h3>Airport</h3>
-								<span>1512 Duncan Avenue, New York</span>
-							</div>
-							<span class="like-icon"></span>
-						</div>
-						<div class="star-rating" data-rating="3.5">
-							<div class="rating-counter">(46 reviews)</div>
-						</div>
-					</a>
-				</div>
-				<!-- Listing Item / End -->
-
-				<!-- Listing Item -->
-				<div class="carousel-item">
-					<a href="listings-single-page.html" class="listing-item-container">
-						<div class="listing-item">
-							<img src="images/listing-item-06.jpg" alt="">
-
-							<div class="listing-badge now-closed">Now Closed</div>
-
-							<div class="listing-item-content">
-								<span class="tag">Eat & Drink</span>
-								<h3>Think Coffee</h3>
-								<span>215 Terry Lane, New York</span>
-							</div>
-							<span class="like-icon"></span>
-						</div>
-						<div class="star-rating" data-rating="4.5">
-							<div class="rating-counter">(15 reviews)</div>
-						</div>
-					</a>
-				</div>
-				<!-- Listing Item / End -->
 				</div>
 				
 			</div>
@@ -658,137 +502,16 @@
 <!-- Fullwidth Section / End -->
 
 
-<!-- Info Section -->
-<div class="container">
-
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<h2 class="headline centered margin-top-80">
-				Plan The Vacation of Your Dreams 
-				<span class="margin-top-25">Explore some of the best tips from around the world from our partners and friends.  Discover some of the most popular listings in Sydney.</span>
-			</h2>
-		</div>
-	</div>
-
-	<div class="row icons-container">
-		<!-- Stage -->
-		<div class="col-md-4">
-			<div class="icon-box-2 with-line">
-				<i class="im im-icon-Map2"></i>
-				<h3>Find Interesting Place</h3>
-				<p>Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut, convallis eros sollicitudin turpis.</p>
-			</div>
-		</div>
-
-		<!-- Stage -->
-		<div class="col-md-4">
-			<div class="icon-box-2 with-line">
-				<i class="im im-icon-Mail-withAtSign"></i>
-				<h3>Contact a Few Owners</h3>
-				<p>Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, id vestibulum metus nullam viverra porta purus.</p>
-			</div>
-		</div>
-
-		<!-- Stage -->
-		<div class="col-md-4">
-			<div class="icon-box-2">
-				<i class="im im-icon-Checked-User"></i>
-				<h3>Make a Reservation</h3>
-				<p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin feugiat pharetra consectetur.</p>
-			</div>
-		</div>
-	</div>
-
-</div>
-<!-- Info Section / End -->
-
-
-<!-- Recent Blog Posts -->
-<section class="fullwidth border-top margin-top-70 padding-top-75 padding-bottom-75" data-background-color="#fff">
-	<div class="container">
-
-		<div class="row">
-			<div class="col-md-12">
-				<h3 class="headline centered margin-bottom-45">
-					From The Blog
-				</h3>
-			</div>
-		</div>
-
-		<div class="row">
-			<!-- Blog Post Item -->
-			<div class="col-md-4">
-				<a href="pages-blog-post.html" class="blog-compact-item-container">
-					<div class="blog-compact-item">
-						<img src="images/blog-compact-post-01.jpg" alt="">
-						<span class="blog-item-tag">Tips</span>
-						<div class="blog-compact-item-content">
-							<ul class="blog-post-tags">
-								<li>22 August 2017</li>
-							</ul>
-							<h3>Hotels for All Budgets</h3>
-							<p>Sed sed tristique nibh iam porta volutpat finibus. Donec in aliquet urneget mattis lorem. Pellentesque pellentesque.</p>
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Blog post Item / End -->
-
-			<!-- Blog Post Item -->
-			<div class="col-md-4">
-				<a href="pages-blog-post.html" class="blog-compact-item-container">
-					<div class="blog-compact-item">
-						<img src="images/blog-compact-post-02.jpg" alt="">
-						<span class="blog-item-tag">Tips</span>
-						<div class="blog-compact-item-content">
-							<ul class="blog-post-tags">
-								<li>18 August 2017</li>
-							</ul>
-							<h3>The 50 Greatest Street Arts In London</h3>
-							<p>Sed sed tristique nibh iam porta volutpat finibus. Donec in aliquet urneget mattis lorem. Pellentesque pellentesque.</p>
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Blog post Item / End -->
-
-			<!-- Blog Post Item -->
-			<div class="col-md-4">
-				<a href="pages-blog-post.html" class="blog-compact-item-container">
-					<div class="blog-compact-item">
-						<img src="images/blog-compact-post-03.jpg" alt="">
-						<span class="blog-item-tag">Tips</span>
-						<div class="blog-compact-item-content">
-							<ul class="blog-post-tags">
-								<li>10 August 2017</li>
-							</ul>
-							<h3>The Best Cofee Shops In Sydney Neighborhoods</h3>
-							<p>Sed sed tristique nibh iam porta volutpat finibus. Donec in aliquet urneget mattis lorem. Pellentesque pellentesque.</p>
-						</div>
-					</div>
-				</a>
-			</div>
-			<!-- Blog post Item / End -->
-
-			<div class="col-md-12 centered-content">
-				<a href="pages-blog.html" class="button border margin-top-10">View Blog</a>
-			</div>
-
-		</div>
-
-	</div>
-</section>
-<!-- Recent Blog Posts / End -->
 
 
 <!-- Footer
 ================================================== -->
-<div id="footer" class="sticky-footer">
+<div id="footer" class="dark">
 	<!-- Main -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5 col-sm-6">
-				<img class="footer-logo" src="images/logo.png" alt="">
+				<img class="footer-logo" src="images/logo2.png" alt="">
 				<br><br>
 				<p>Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
 			</div>
@@ -796,20 +519,20 @@
 			<div class="col-md-4 col-sm-6 ">
 				<h4>Helpful Links</h4>
 				<ul class="footer-links">
-					<li><a href="index.html#">Login</a></li>
-					<li><a href="index.html#">Sign Up</a></li>
-					<li><a href="index.html#">My Account</a></li>
-					<li><a href="index.html#">Add Listing</a></li>
-					<li><a href="index.html#">Pricing</a></li>
-					<li><a href="index.html#">Privacy Policy</a></li>
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">My Account</a></li>
+					<li><a href="#">Add Listing</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Privacy Policy</a></li>
 				</ul>
 
 				<ul class="footer-links">
-					<li><a href="index.html#">FAQ</a></li>
-					<li><a href="index.html#">Blog</a></li>
-					<li><a href="index.html#">Our Partners</a></li>
-					<li><a href="index.html#">How It Works</a></li>
-					<li><a href="index.html#">Contact</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Our Partners</a></li>
+					<li><a href="#">How It Works</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 				<div class="clearfix"></div>
 			</div>		
@@ -819,14 +542,14 @@
 				<div class="text-widget">
 					<span>12345 Little Lonsdale St, Melbourne</span> <br>
 					Phone: <span>(123) 123-456 </span><br>
-					E-Mail:<span> <a href="index.html#"><span class="__cf_email__" data-cfemail="274841414e444267425f464a574b420944484a">[email&#160;protected]</span></a> </span><br>
+					E-Mail:<span> <a href="#"><span class="__cf_email__" data-cfemail="3b545d5d52585e7b5e435a564b575e15585456">[email&#160;protected]</span></a> </span><br>
 				</div>
 
 				<ul class="social-icons margin-top-20">
-					<li><a class="facebook" href="index.html#"><i class="icon-facebook"></i></a></li>
-					<li><a class="twitter" href="index.html#"><i class="icon-twitter"></i></a></li>
-					<li><a class="gplus" href="index.html#"><i class="icon-gplus"></i></a></li>
-					<li><a class="vimeo" href="index.html#"><i class="icon-vimeo"></i></a></li>
+					<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+					<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+					<li><a class="gplus" href="#"><i class="icon-gplus"></i></a></li>
+					<li><a class="vimeo" href="#"><i class="icon-vimeo"></i></a></li>
 				</ul>
 
 			</div>
@@ -847,7 +570,7 @@
 
 
 <!-- Back To Top Button -->
-<div id="backtotop"><a href="index.html#"></a></div>
+<div id="backtotop"><a href="#"></a></div>
 
 
 </div>
@@ -870,12 +593,136 @@
 <script type="text/javascript" src="scripts/custom.js"></script>
 
 
-<!-- Style Switcher
-================================================== -->
-<script src="scripts/switcher.js"></script>
 
-<!-- Style Switcher / End -->
+
+<!-- REVOLUTION SLIDER SCRIPT -->
+<script type="text/javascript" src="scripts/themepunch.tools.min.js"></script>
+<script type="text/javascript" src="scripts/themepunch.revolution.min.js"></script>
+
+<script type="text/javascript">
+	var tpj=jQuery;			
+	var revapi4;
+	tpj(document).ready(function() {
+		if(tpj("#rev_slider_4_1").revolution == undefined){
+			revslider_showDoubleJqueryError("#rev_slider_4_1");
+		}else{
+			revapi4 = tpj("#rev_slider_4_1").show().revolution({
+				sliderType:"standard",
+				jsFileLocation:"scripts/",
+				sliderLayout:"auto",
+				dottedOverlay:"none",
+				delay:9000,
+				navigation: {
+					keyboardNavigation:"off",
+					keyboard_direction: "horizontal",
+					mouseScrollNavigation:"off",
+					onHoverStop:"on",
+					touch:{
+						touchenabled:"on",
+						swipe_threshold: 75,
+						swipe_min_touches: 1,
+						swipe_direction: "horizontal",
+						drag_block_vertical: false
+					}
+					,
+					arrows: {
+						style:"zeus",
+						enable:true,
+						hide_onmobile:true,
+						hide_under:600,
+						hide_onleave:true,
+						hide_delay:200,
+						hide_delay_mobile:1200,
+						tmp:'<div class="tp-title-wrap"></div>',
+						left: {
+							h_align:"left",
+							v_align:"center",
+							h_offset:40,
+							v_offset:0
+						},
+						right: {
+							h_align:"right",
+							v_align:"center",
+							h_offset:40,
+							v_offset:0
+						}
+					}
+					,
+					bullets: {
+				enable:false,
+				hide_onmobile:true,
+				hide_under:600,
+				style:"hermes",
+				hide_onleave:true,
+				hide_delay:200,
+				hide_delay_mobile:1200,
+				direction:"horizontal",
+				h_align:"center",
+				v_align:"bottom",
+				h_offset:0,
+				v_offset:32,
+				space:5,
+				tmp:''
+					}
+				},
+				viewPort: {
+					enable:true,
+					outof:"pause",
+					visible_area:"80%"
+			},
+			responsiveLevels:[1200,992,768,480],
+			visibilityLevels:[1200,992,768,480],
+			gridwidth:[1180,1024,778,480],
+			gridheight:[640,500,400,300],
+			lazyType:"none",
+			parallax: {
+				type:"mouse",
+				origo:"slidercenter",
+				speed:2000,
+				levels:[2,3,4,5,6,7,12,16,10,25,47,48,49,50,51,55],
+				type:"mouse",
+			},
+			shadow:0,
+			spinner:"off",
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+			shuffle:"off",
+			autoHeight:"off",
+			hideThumbsOnMobile:"off",
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			debugMode:false,
+			fallbacks: {
+				simplifyAll:"off",
+				nextSlideOnWindowFocus:"off",
+				disableFocusListener:false,
+			}
+		});
+		}
+	});	/*ready*/
+</script>	
+
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+	(Load Extensions only on Local File Systems ! 
+	The following part can be removed on Server for On Demand Loading) -->	
+<script type="text/javascript" src="scripts/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="scripts/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="scripts/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="scripts/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="scripts/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="scripts/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="scripts/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="scripts/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="scripts/extensions/revolution.extension.video.min.js"></script>
+
+
+
 
 
 </body>
+
+<!-- Mirrored from www.vasterad.com/themes/listeo_updated/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Apr 2018 12:43:41 GMT -->
 </html>
