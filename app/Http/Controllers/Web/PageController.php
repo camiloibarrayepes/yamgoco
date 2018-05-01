@@ -8,6 +8,8 @@ use App\Http\Controllers\Controller;
 use App\Post;
 use App\Category;
 
+use Carbon\Carbon;
+
 class PageController extends Controller
 {
     public function blog(){
@@ -20,6 +22,7 @@ class PageController extends Controller
         $posts = Post::orderBy('id', 'DESC')->where('status', 'PUBLISHED')->limit(6)->get();
         return view('components.index', compact('posts'));
     }
+
 
     public function category($slug){
         $category = Category::where('slug', $slug)->pluck('id')->first();
@@ -42,5 +45,12 @@ class PageController extends Controller
     public function post($slug){
         $post = Post::where('slug', $slug)->first();
         return view('web.post', compact('post'));
+    }
+
+
+    public function pruebapost($slug){
+        $posts = Post::orderBy('id', 'DESC')->where('status', 'PUBLISHED')->limit(3)->get();
+        $post = Post::where('slug', $slug)->first();
+        return view('web.postprueba', compact('post', 'posts'));
     }
 }

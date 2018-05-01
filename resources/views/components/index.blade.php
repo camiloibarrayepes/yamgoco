@@ -126,8 +126,8 @@
 
 			<div class="col-md-12">
 				<h3 class="headline centered margin-bottom-45">
-					Ultimas travesias
-					<span>Descrubre los ultimos destinos agregados</span>
+					Blog Yamgo
+					<span>Descrube novedades en travesías, gastronomía y mucho más</span>
 				</h3>
 			</div>
 
